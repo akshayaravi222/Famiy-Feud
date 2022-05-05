@@ -3,19 +3,59 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<title>Natick High School Family Feud</title>
 
 	<style> 
+		body{
+			background-color:  black;
+			color:  white;
+			font-family: 'Open Sans', sans-serif;
+		}
+		h2{
+			font-size: 40px;
+			margin-top:  15px;
+		}
+
+		.row{
+			margin:  auto;
+			width:  90%;
+
+		}
+
 		.cover{
+			border:  5px solid lightblue;
 			height:  100px;
 			width:  40%;
-			background-color:  #3B9AFC;
+			background-color: navy;
+			float: left;
+			margin-top:  40px;
+		}
+
+		.spacer{
+			width:  10%;
+			height:  100px;
+			float:  left;
 		}
 
 		.answer{
 			weidth:  100%;
 			height:  200px;
 			opacity:  0;
+		}
+
+		.response{
+			float:  left;
+			padding-left:  50px;
+		}
+		.points{
+			width:  20%;
+			height:  100px;
+			background-color: #3B9AFC;
+			float:  right;
+			text-align:  center;
 		}
 
 	</style>
@@ -25,17 +65,78 @@
 
 	<h1> Question 1: What is my name? </h1>
 
-	<div class="cover">
-		<div class="answer" onclick="uncover(this, 0)">
-			<h2> Akshaya </h2>
+	<div class = "row">
+		<div class="cover">
+			<div class="answer" onclick="uncover(this, 0)">
+				<div class="response"><h2> Answer 1 </h2></div>
+				<div class="points"><h2> 55 </h2></div>
+			</div>
+		</div>
+
+		<div class="spacer"></div>
+
+		<div class="cover">
+			<div class="answer" onclick="uncover(this, 0)">
+				<div class="response"><h2> Answer 1 </h2></div>
+				<div class="points"><h2> 55 </h2></div>
+			</div>
 		</div>
 	</div>
 
-	<div class="cover">
-		<div class="answer" onclick="uncover(this, 0)">
-			<h2> Ravi </h2>
+	<div class = "row">
+		<div class="cover">
+			<div class="answer" onclick="uncover(this, 0)">
+				<div class="response"><h2> Answer 1 </h2></div>
+				<div class="points"><h2> 55 </h2></div>
+			</div>
+		</div>
+
+		<div class="spacer"></div>
+
+		<div class="cover">
+			<div class="answer" onclick="uncover(this, 0)">
+				<div class="response"><h2> Answer 1 </h2></div>
+				<div class="points"><h2> 55 </h2></div>
+			</div>
 		</div>
 	</div>
+
+	<div class = "row">
+		<div class="cover">
+			<div class="answer" onclick="uncover(this, 0)">
+				<div class="response"><h2> Answer 1 </h2></div>
+				<div class="points"><h2> 55 </h2></div>
+			</div>
+		</div>
+
+		<div class="spacer"></div>
+
+		<div class="cover">
+			<div class="answer" onclick="uncover(this, 0)">
+				<div class="response"><h2> Answer 1 </h2></div>
+				<div class="points"><h2> 55 </h2></div>
+			</div>
+		</div>
+	</div>
+
+	<div class = "row">
+		<div class="cover">
+			<div class="answer" onclick="uncover(this, 0)">
+				<div class="response"><h2> Answer 1 </h2></div>
+				<div class="points"><h2> 55 </h2></div>
+			</div>
+		</div>
+
+		<div class="spacer"></div>
+
+		<div class="cover">
+			<div class="answer" onclick="uncover(this, 0)">
+				<div class="response"><h2> Answer 1 </h2></div>
+				<div class="points"><h2> 55 </h2></div>
+			</div>
+		</div>
+	</div>
+
 
 </body>
 
